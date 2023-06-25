@@ -1,0 +1,49 @@
+#myheader {
+    width: 100%;
+    top: 0px;
+    position: relative;
+    height: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#myheader .mylogoweb {
+    display: flex;
+
+}
+
+#myheader .mylogoweb .mylogo {
+    /* width: 30px;height: 30px;
+    background-color: #fff;
+    box-shadow: 7px 5px 5px rgba(0,0,0,.5); */
+    font-size: 40px;
+    margin-right: 10px;
+    color: #120f0fee;
+
+}
+
+#myheader .mylogoweb .myweb_name {
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 18px;
+    color: #f45641
+}
+
+.main_report {
+    position: relative;
+    /* background-color: rgb(189, 39, 39); */
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+.main_report div {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.what {
+    background-color: #120f0f11;
+}

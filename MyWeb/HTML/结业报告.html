@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/侧边栏.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/报告.css">
+    <title>结业报告</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <div class="logo_color">
+                    <i class='bx bxl-meta' id="logom">
+                    </i>
+                </div>
+                <div class="logo_name">
+                    Erol's Web
+                </div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <hr>
+        <ul class="nav_list">
+            <li>
+                <a href="../HTML/主页面.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="../HTML/Start.html">
+                    <i class='bx bxs-home'></i>
+                    <span class="links_name">Start</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../HTML/图片推荐.html">
+                    <i class='bx bx-photo-album'></i>
+                    <span class="links_name">Photo</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../HTML/小说推荐界面.html">
+                    <i class='bx bxs-book-content'></i>
+                    <span class="links_name">Novel</span>
+                </a>
+            </li>
+            <li>
+                <a href="../HTML/特摄剧推荐.html">
+                    <i class='bx bx-bowl-rice'></i>
+                    <span class="links_name">Tokusatsu</span>
+                </a>
+            </li>
+            <li>
+                <a href="../HTML/结业报告.html">
+                    <i class='bx bxs-report'></i>
+                    <span class="links_name">Report</span>
+                </a>
+            </li>
+        </ul>
+        <div class="profile_conent" id="profile_conent0">
+            <div class="profile">
+                <a href="../HTML/主页面.html">
+                    <div class="profile_details">
+                        <img src="../webp/QQ图片20230615195050.jpg" alt="">
+                        <div class="name">Erol Hugo</div>
+                    </div>
+                    <i class='bx bx-log-in' id="log_out"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="myheader">
+        <div class="mylogoweb">
+            <div class="mylogo">
+                <i class='bx bxs-report'></i>
+            </div>
+            <div class="myweb_name">
+
+                <h2>《Web应用基础》课程结业报告</h2>
+            </div>
+        </div>
+    </div>
+    <div class="main_report">
+        <div class="what">
+            <h2>做了什么:</h2>
+            <p>一个关于个人兴趣的一个网页</p>
+            <p>本网页包含了起始页(start),主页面,小说推荐页面,推片推荐,特摄剧推荐及结业报告</p>
+            <p>在其中加入侧边导航栏,头部标题等</p>
+        </div>
+        <div class="what">
+            <h2>关于开发</h2>
+            <p> 本网页主要使用HTML和css技术编写,使用了少量的JavaScript的技术;<br>
+                在开发过程中,首先我先将起始面start编写,
+                其次将侧边栏编写,在对头部区域进行编写,随即对主页面进行了编写,在学习了老师所下发的关于
+                侧边栏以及主页面的教学视频后,完善并优化了侧边栏和主页面,本网页大部分采用了flex的布局;
+            </p>
+        </div>
+        <div class="what">
+            <h2>关于问题及解决(部分)</h2><br>
+            <p>问题1: 对于图标不知道如何加入?</p>
+            <p>解决: 在教学视频里学习到了在HTML文件头部中加入<br>
+                link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'<br>
+                在boxicons.com 网站搜索需要的icon将其链接直接加入即可 </p>
+            <p>侧边栏和网页头部都基本加入了icon</p><br>
+            <p>问题2:不知道如何在鼠标滑过时出现图片</p>
+            <p>解决:使用了hover,通过加入hover使图片在鼠标经过时再出现,在未经过时隐藏</p><br>
+            <p>问题3: 如何实现包围盒子的旋转效果?</p>
+            <p>为了实现对于start页面的起始的包围效果,我使用了伪元素before和after
+                ,使用了让一个盒子在另一盒子的下面使用动画旋转并去除多余的部分的方式
+                成功实现包围旋转的样式,同时用gradient使颜色可以变化 </p><br>
+            <p>问题3:如何实现在鼠标经过时盒子变大并恢复</p>
+            <p>解决:使用了动画transform:scale(1.1);实现了效果</p><br>
+            <p>问题4; 如何展开侧边栏?</p>
+            <p>解决:使用了JavaScript使侧边栏在点击后进入另一个状态</p>
+        </div>
+        <div class="what">
+            <h2>未解决问题:</h2>
+            <p>未能解决加载视频十分卡的问题,未能解决对于上传的图片加载十分缓慢的问题,<br>
+            未实现侧边栏在缩小状态时的文字掩藏的问题等等</p>
+        </div>
+        <div class="what">
+            <h2>总结:</h2>
+            <p>本网页使用了多重div的嵌合而完成,同时大部分图片都是使用链接,<br> 
+                也编写了众多的css,使用了少量的JavaScript技术,最终达成了你所看到的效果,我对html和css以及JavaScript的运用基本都实现在本网页上</p>
+
+        </div>
+    </div>
+</body>
+<script>
+    let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function () {
+        sidebar.classList.toggle("active");
+    }
+</script>
+
+</html>
